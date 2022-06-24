@@ -1,0 +1,16 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+.second {
+/*   flex-grow: 1;
+ */  
+  height: calc(100% - 30px);
+  min-height: calc(100% - 30px);
+}
+.header {
+  background: rgb(211, 124, 124);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
